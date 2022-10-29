@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.door {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.statContent {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.no-user-select {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.successTry {
+    color: #00BD39;
+}
+
+.unsuccessTry {
+    color: #FF2C00;
+}
