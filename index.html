@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="center header">
-        <h1 class="text" name="numberOfGames">0</h1>
+        <h1 class="no-user-select text" id="numberOfGames">0</h1>
     </div>
     <div class="center">
         <div class="door" id="0"></div>
@@ -23,17 +23,17 @@
         <div class="door" id="2"></div>
     </div>
     <div class="center statistics">
-        <div class="statContent">
-            <h4 class="text">Дверь поменялась</h4>
-            <h4 class="no-user-select text totalTry" name="lTotalTry">0</h4>
-            <h4 class="no-user-select text successTry" name="lSuccessTry">0</h4>
-            <h4 class="no-user-select text unsuccessTry" name="lUnsuccessTry">0</h4>
+        <div class="stat-content">
+            <h4 class="no-user-select text">Дверь поменялась</h4>
+            <h4 class="no-user-select text" id="doorChangedTotal">0</h4>
+            <h4 class="no-user-select text green" id="doorChangedSuccess">0</h4>
+            <h4 class="no-user-select text red" id="doorChangedUnsuccess">0</h4>
         </div>
-        <div class="statContent">
+        <div class="stat-content">
             <h4 class="no-user-select text">Дверь не менялась</h4>
-            <h4 class="no-user-select text totalTry" name="lTotalTry">0</h4>
-            <h4 class="no-user-select text successTry" name="lSuccessTry">0</h4>
-            <h4 class="no-user-select text unsuccessTry" name="lUnsuccessTry">0</h4>
+            <h4 class="no-user-select text" id="doorNotChangedTotal">0</h4>
+            <h4 class="no-user-select text green" id="doorNotChangedSuccess">0</h4>
+            <h4 class="no-user-select text red" id="doorNotChangedUnsuccess">0</h4>
         </div>
     </div>
 

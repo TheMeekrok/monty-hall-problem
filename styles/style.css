@@ -12,6 +12,11 @@ body {
     height: 300px;
     width: 300px;
     margin: 30px;
+    border: 2px dashed #FFFFFF;
+}
+
+.door:hover {
+    border-color: #000000;
 }
 
 img {
@@ -22,7 +27,7 @@ img {
     -ms-user-select: none;
 }
 
-.statContent {
+.stat-content {
     height: 150px;
     width: 150px;
     margin: 30px;
@@ -41,10 +46,10 @@ img {
     -ms-user-select: none;
 }
 
-.successTry {
+.green {
     color: #00BD39;
 }
 
-.unsuccessTry {
+.red {
     color: #FF2C00;
 }
